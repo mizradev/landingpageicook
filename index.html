@@ -4,51 +4,64 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>iCook app</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140700739-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-140700739-1');
+    </script>
+  
   </head>
   <body>
   <div id="wrap">
     <!-- N A V -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-2">
-        
-                <a class="navbar-brand" href="#">
-                        <img src="./assets/logo-white.png" id="logo" class="img-fluid" width="80%" alt="logo-icook">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-white" id="menu">
-                        <ul class="navbar-nav mr-auto ulBgGreen ">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#howto">Como funciona </a>
-                            </li><br>
-                            <li class="nav-item">
-                                <a class="nav-link  text-white" href="#feature">Características</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#jobs">Únete al equipo</a>
-                            </li>
-
-                        </ul>
-                    </div>
-        
+    <nav class="navbar fixed-top navbar-expand-lg bg-white shadow-sm navbar-light p-2">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo-green.png" id="logo" class="img-fluid" width="80%" alt="logo-icook">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarText"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mr-auto ulMain ">
+            <li class="nav-item">
+              <a class="nav-link" href="#howto">¿Cómo funciona? </a>
+            </li><br>
+            <li class="nav-item">
+              <a class="nav-link " href="#feature">Características</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#jobs">Únete al equipo</a>
+            </li>
+    
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- END N A V -->
 
     <!-- overlay -->
-    <section style="height: 100vh;" class="overlay p-5 " >
+    <section class="overlay p-5 " >
         <div id="slideshow" class="container">
-            <div class="row justify-content-center align-items-center ">
-                <div class="col-sm-12 col-md-7 text-white">
-                  <br> <br>
+            <div class="row">
+                <div class="col-sm-12 col-md-7 text-white justify-content-center align-self-center ">
                     <div class="mt-5">
-                        <h1 class="title-main text-bold">¡COMER SALUDABLE NUNCA FUÉ TAN FÁCIL!</h1>
+
+                      <br> <br>
+                        <h2 class="title-main text-bold">¡COMER SALUDABLE NUNCA FUÉ TAN FÁCIL!</h2>
 
                         <h5>Más del 70% de las muertes en el país, es causada por enfermedades crónicas.
                           Enfermedades, que podemos controlarlas o prevenirlas teniendo una sana <br>alimentación
@@ -62,7 +75,7 @@
                   </div>
                       
                 </div>
-                <div class="col-sm-12 col-md-5 text-right"><br><br>
+                <div class="col-sm-12 col-md-5 text-right d-none d-sm-block"><br><br>
                   <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -155,7 +168,7 @@
                 <div class="col-sm-6">
                   <h3 class="text-semiBold"><i class="fa fa-clipboard"></i> Historial dietético</h3>
                   <p>Tendrás un historial de tus calorias consumidas por cada platillo que compres. 
-                      Esto te ayudará a tener un mejor control alimentencio.
+                      Esto te ayudará a tener un mejor control alimenticio.
                     </p>
                 </div>
                 <div class="col-sm-6">
@@ -176,56 +189,57 @@
     </section >
 
     <!-- chef o iCooktendero -->
-    <section class="overflow-hidden" style="height: 100vh;">
-            <div id="jobs"  class="row ">
-                    <div class="col-sm-12 col-md-6 chef card">
-...
-                        </div>
-                <div class="col-sm-12 col-md-6 p-5 text-center"
-                style="background-color: #fff8bd">
-
-                    <span class="title-top">¿CHEF O COCINERO AFICIONADO?</span>
-                    <h3 class="title-main">¡Obten ingresos extras!</h3>
-                    <p class="text-justify">
-                            Forma parte de nuestra familia de socios estratégicos.
-                            Llega a más personas, ayudanos a cambiar vidas. Ten un mejor 
-                            control de tus pédidos y ten ingreso extra. 
-                    </p>
-                        <button type="button" class="btn btn-outline-dark"
-                        data-toggle="modal" data-target="#boletin">ÚNETE</button>
-                </div>
-                
-            </div>
+    <section class="overflow-hidden">
+      <div id="jobs" class="row ">
+        <div class="col-sm-12 col-md-6 chef ">
+    
+        </div>
+        <div class="col-sm-12 col-md-6 p-5 text-center" style="background-color: #fff8bd">
+    
+          <span class="title-top">¿CHEF O COCINERO AFICIONADO?</span>
+          <h3 class="title-main font-light">¡Obten ingresos extras!</h3>
+          <p class="text-justify">
+            Forma parte de nuestra familia de socios estratégicos.
+            Llega a más personas, ayudanos a cambiar vidas. Ten un mejor
+            control de tus pédidos y ten ingreso extra.
+          </p>
+          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#boletin">ÚNETE</button>
+        </div>
+    
+      </div>
+    </section>
+    <section class="overflow-hidden">
             <div class="row">
-                
                 <div class="col-sm-12 col-md-6 p-5 text-center"
                 style="background-color: #dff9d9">
                     <span class="title-top">ICOOKTENDERO</span>
-                    <h3 class="title-main">¡Reparte salud!</h3>
+                    <h3 class="title-main font-light">¡Reparte salud!</h3>
                     <p class="text-justify">
                             ¿Estas buscando ingresos extra? Se un <strong>icooktendero</strong> y 
                             ayudanos a mejora tú calidad de vida y el de más de 60% de personas que lo necesitan. Maneja tu propio tiempo. 
                     </p>
-                        <button type="button" class="btn btn-outline-dark"
+                        <button type="button" class="btn btn-warning btn-lg"
                         data-toggle="modal" data-target="#boletin">ÚNETE</button>
                 </div>
-                <div class="col-sm-12 col-md-6 icooktendero card"></div>
+                <div class="col-sm-12 col-md-6 icooktendero"></div>
             </div>
     </section>
     <!-- end chef o iCooktendero -->
 
     <!-- footer -->
-    <section class="bg-white p-5">
-        <div class="container text-center">
+    <section class="bg-white p-4">
+        <div class="container ">
             <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <img src="./assets/logo-green.png" style="width: 13rem;" class="img-fluid"  alt="">
+                <div class="col-sm-12 col-md-6">
+                    <img src="./assets/logo-green.png" width="40%" class="img-fluid"  alt="">
+                    <br> <br> © 2019 iCook. Derechos Reservados.
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <h5>Acerca de iCook</h5>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <h5>Contacto</h5>
+                <div class="col-sm-12 col-md-6 p-3">
+                    <h5 class="font-weight-bolder">CONTACTO</h5>
+                    <p>Email: <a href="mailto:icooktechn@gmail.com" target="_blank">icooktechn@gmail.com</a></p>
+                    <p>Whatsapp: 
+                      <a target="_blank" href="https://api.whatsapp.com/send?phone=50432866905&text=Quiero%saber%mas%informacion%de%icook%,%mi%nombre%es:">+5043286-6905</a></p>
+                    <p>Facebook: <a target="_blank" href="https://www.facebook.com/icookapphn/">@icookapphn</a></p>  
                 </div>
             </div>
         </div>
@@ -236,54 +250,95 @@
         <div class="modal-dialog modal-dialog-scrollable" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Te enviaremos más información!</h5>
+              <h5 class="modal-title font-weight-bolder" id="exampleModalLabel">Forma parte de nuestra familia</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-                <!--<form action="https://gmail.us20.list-manage.com/subscribe/post?u=8209d5a9ba309e44898a6149b&amp;id=110bad112e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <!-- Begin Mailchimp Signup Form -->
+              <p class="text-justify">
+                  Llena el siguiente formulario para brindarte más información de la plataforma y del área de tú interes. Te avisaremos la fecha del lanzamiento de la aplicación. Prometemos no enviarte SPAM! :)
+                  <strong>#iCookTeAma</strong>
+              </p>
+              <hr>  
+              <div id="mc_embed_signup">
+                <form action="https://gmail.us20.list-manage.com/subscribe/post?u=8209d5a9ba309e44898a6149b&amp;id=110bad112e"
+                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                  novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <div class="indicates-required"><span class="asterisk">*</span> Requerido</div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-6">
-                                <div class="form-group">
-                                        <label for="mce-FNAME">Nombres</label>
-                                        <input type="text" class="form-control" name="FNAME" placeholder="Nombres">
-                                </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                                <div class="form-group">
-                                        <label for="mce-LNAME">Apellidos</label>
-                                        <input type="text" class="form-control" name="LNAME" placeholder="Apellidos">
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                            <label for="mce-BIRTHDAY-month">Cumpleaños</label>
-                            <div>
-                                    <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
-                                    <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
-                                    <span class="small-meta nowrap">( mm / dd )</span>
-                            
+                      <div class="col-sm-12 col-md-6">
+                          <div class="mc-field-group">
+                              <label for="mce-FNAME"><strong>Nombres</strong> <span class="asterisk">*</span>
+                              </label>
+                              <input type="text" placeholder="Juan Cecilio" name="FNAME" class="form-control required" id="mce-FNAME">
                             </div>
-                            <small id="emailHelp" class="form-text text-muted">Te enviaremos un regalo de cumpleaños!.</small>
+                      </div>
+                      <div class="col-sm-12 col-md-6">
+                          <div class="mc-field-group">
+                              <label for="mce-LNAME"><strong>Apellidos</strong> <span class="asterisk">*</span>
+                              </label>
+                              <input type="text" placeholder="Martinez López"name="LNAME" class="form-control required" id="mce-LNAME">
+                            </div>
+                      </div>
                     </div>
-                    
+                    <div class="mc-field-group size1of2 form-group mt-3">
+                      <label for="mce-BIRTHDAY-month"> <strong>Fecha de cumpleaños</strong> </label>
+                      <div class="datefield">
+                          <div class="row">
+                            <div class="col-sm-3">
+                                <span class="subfield dayfield"><input class="birthday form-control" type="text" pattern="[0-9]*" value=""
+                                  placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+                            </div>
+                            /
+                            <div class="col-sm-3">
+                                <span class="subfield monthfield"><input class="birthday form-control" type="text" pattern="[0-9]*" value=""
+                                  placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> 
+                            </div>
+                            <span class="small-meta nowrap">( dia / mes )</span>
+                          </div>
+                      </div>
+                    </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Ingresa tu email">
-                        
+                        <div class="mb-3">
+                            <strong>Estoy interesado en: <span class="asterisk">*</span>
+                            </strong>
+                        </div>
+                      
+                        <div class="form-check form-check-inline text-success">
+                          <input type="radio" class="form-check-input" value="Comprar comida" name="ROLLUSER" id="mce-ROLLUSER-0"><label
+                              for="mce-ROLLUSER-0" class="form-check-label"> <strong>Comprar comida</strong></label>
+                        </div>
+                        <div class="form-check form-check-inline text-success">
+                          <input type="radio" class="form-check-input" value="Chef / Cocinero" name="ROLLUSER" id="mce-ROLLUSER-1"><label
+                              for="mce-ROLLUSER-1"><strong>Ser chef / Cocinero </strong></label>
+                        </div>
+                        <div class="form-check form-check-inline  text-success" >
+                            <input type="radio" class="form-check-input" value="Repartidor" name="ROLLUSER" id="mce-ROLLUSER-2"><label
+                            for="mce-ROLLUSER-2"> <strong>Ser repartidor</strong></label>
+                        </div>
                     </div>
-                    
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <div class="form-group">
+                      <label for="mce-EMAIL"><strong>Correo electrónico</strong> <span class="asterisk">*</span>
+                      </label>
+                      <input type="email" placeholder="email" name="EMAIL" class="required email form-control" id="mce-EMAIL">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>-->
-                <!-- Begin Mailchimp Signup Form -->
-                <iframe src="http://eepurl.com/grX2OT" seamless width="100%" height="900px" frameborder="0"></iframe>
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_8209d5a9ba309e44898a6149b_110bad112e" tabindex="-1" value=""></div>
+                    <div class="clear">
+                      <input type="submit" value="Suscribirse" name="subscribe" id="mc-embedded-subscribe"
+                        class="button btn btn-success btn-lg shadow mb-3"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
             </div>
           </div>
         </div>
@@ -296,5 +351,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
+
+    <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          facebook: "124693798289262", // Facebook page ID
+          whatsapp: "+50432866905", // WhatsApp number
+          call_to_action: "¿Podemos ayudarte con algo?", // Call to action
+          button_color: "#E74339", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "facebook,whatsapp", // Order of buttons
+      };
+      var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /WhatsHelp.io widget -->
 </body>
 </html>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Pacifico|Montserrat:900,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Pacifico|Montserrat:900,300,400,700');
 
 @font-face {
     font-family: 'iconSearch';
@@ -46,7 +46,7 @@ body{
 }
 
 .ulMain li a{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .ulMain li:hover{
@@ -62,7 +62,7 @@ body{
     transition: border-bottom .5s;
 }
 .ulBgGreen li a{
-    font-size: 1.2em;
+    font-size: 1.1em;
     transition: font-weight .5s;
 }
 .ulBgGreen li:hover{
@@ -84,7 +84,7 @@ body{
   background-position-x: 75%;
   background-position-y: 40%;
   background-size: auto;
-  }
+}
 
 .chef{
     background-image: url('https://images.unsplash.com/photo-1556911261-6bd341186b2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
@@ -108,6 +108,9 @@ body{
 }
 .text-bold{
   font-weight: 900;
+}
+.font-light{
+    font-weight: 300;
 }
 .title-main{
     font-size: 3.4em;
@@ -145,4 +148,11 @@ body{
 
 .btn-text-verde{
   color: rgb(113,184,95);
+}
+
+
+@media (max-width: 767.98px)  {
+    .overlay{
+        background-image: url('../assets/bg.png') ;
+    }
 }

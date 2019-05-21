@@ -28,7 +28,7 @@ $(()=>{
     });
 
     //sticky menu
-    $(window).on('scroll', function (){
+    /*$(window).on('scroll', function (){
       let $scrollTop = $(window).scrollTop();
       const nav = $('nav'), ul = $('ul'), a = $('ul li a'), logo = $('#logo');
       if($scrollTop > 500){
@@ -46,7 +46,7 @@ $(()=>{
         a.addClass('text-white');
       }
 
-    });
+    });-*/
 
     // slideshow
     const slides = $('#slideshow');
