@@ -52,23 +52,31 @@ body{
 .ulMain li:hover{
     border-bottom: solid rgb(138,195,62) 3px;
 }
+
+.ulMain li:hover a{
+    font-weight: 700;
+}
+
 .ulBgGreen li{
     border-bottom: solid transparent 3px;
     transition: border-bottom .5s;
 }
 .ulBgGreen li a{
     font-size: 1.2em;
+    transition: font-weight .5s;
 }
 .ulBgGreen li:hover{
     border-bottom: solid white 3px;
+}
+
+.ulBgGreen li:hover a{
+    font-weight: 700;
 }
 
 .overlay{
     background-image: url('../assets/slide1.png');
     background-size:auto;
     background-position: center;
-    /*background-blend-mode: darken;
-    background-color: #84bd00;*/
 }
 
 .features{

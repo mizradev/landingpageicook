@@ -1,8 +1,6 @@
 $(()=>{
-
     const $buscar = $('#buscar');
     const $btn_buscar = $('#btn_buscar');
-
     $buscar.on('keypress', (e) => {
         e.preventDefault();
         if(($buscar.val() === "") && (e.key == 'Enter')){
@@ -21,7 +19,6 @@ $(()=>{
             },1000);
         }
     })
-
     const card = $('.card');
     card.on('mouseover', function () {
       $(this).addClass('shadow-lg upAnimate');;
@@ -35,14 +32,14 @@ $(()=>{
       let $scrollTop = $(window).scrollTop();
       const nav = $('nav'), ul = $('ul'), a = $('ul li a'), logo = $('#logo');
       if($scrollTop > 500){
-        logo.attr("src","./assets/logo.png");
+        logo.attr("src","./assets/logo-green.png");
         nav.removeClass('navbar-dark');
         nav.addClass('fixed-top bg-white shadow-sm navbar-light');
         ul.removeClass('ulBgGreen');
         ul.addClass('ulMain');
         a.removeClass('text-white');
       }else{
-        logo.attr("src","./assets/logo4-white.png");
+        logo.attr("src","./assets/logo-white.png");
         nav.removeClass('bg-white shadow-sm');
         ul.removeClass('ulMain');
         ul.addClass('ulBgGreen');
